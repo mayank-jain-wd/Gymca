@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+:root {
+  --dark-color: #171819;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-bar,
+nav {
+  background-color: var(--dark-color);
+  box-shadow: none;
+  font-weight: 400;
+}
+
+.headr-sec {
+  background-color: #1718198a;
+}
+.hero-sec {
+  position: relative;
+  background-position: center;
+  top: -20px;
+}
+.parallax {
+  /* The image used */
+  background-image: url("./images/hero-bg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h4.hero-subhead {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  width: 700px;
+  margin: 0 auto;
+  color: orange;
+  padding: 50px 0;
+}
+h6 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+h3 {
+  font-weight: 800;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: orange;
+}
+.hero-content {
+  padding: 12rem 0;
+}
+.cta-btn {
+  border: 1px solid orange;
+}
+
+.second-sec {
+  background-color: var(--dark-color);
+  padding: 3rem 0;
+  position: relative;
+  top: -40px;
+}
+.card-title {
+  font-weight: bold !important;
+  font-size: 1.68rem !important;
+  line-height: 110% !important;
+}
+.line-row {
+  position: RELATIVE;
+  border-right: 1px solid #f7f7f740;
+  height: 250px;
+  left: -8% !important;
+
+  top: 20px;
+}
+.right-sec a {
+  position: relative;
+  top: 20px;
+  font-size: 16px;
+}
+#contact {
+  padding-bottom: 2rem;
+}
+/* .third-sec{
+  padding: 2rem 0;
+} */
+.third-sec p {
+  margin-bottom: 20px;
+}
+.schedule {
+  background-color: var(--dark-color);
+  margin: 3rem 0;
+  padding: 4rem 0;
+}
+
+#schedule table {
+  width: 100%;
+  margin: 2rem 0;
+  text-align: center;
+  border: 1px solid #fff;
+}
+table {
+  border-collapse: collapse;
+}
+#schedule table tbody {
+  border-top: 1px solid #fff;
+}
+#schedule table tbody tr {
+  border-bottom: 1px solid #fff;
+}
+#schedule table tbody tr td {
+  border-right: 1px solid #fff;
+  height: 100px;
+}
+#schedule table tr td {
+  color: #fff;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+.input-field > label {
+  color: #171819;
+}
+button.btn.waves-effect.waves-light.orange {
+  width: 100%;
+  position: relative;
+  top: 20px;
+  font-size: 17px;
+}
+input:not([type]):focus:not([readonly]),
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="url"]:not(.browser-default):focus:not([readonly]),
+input[type="time"]:not(.browser-default):focus:not([readonly]),
+input[type="date"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime"]:not(.browser-default):focus:not([readonly]),
+input[type="datetime-local"]:not(.browser-default):focus:not([readonly]),
+input[type="tel"]:not(.browser-default):focus:not([readonly]),
+input[type="number"]:not(.browser-default):focus:not([readonly]),
+input[type="search"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid orange;
+  -webkit-box-shadow: 0 1px 0 0 orange;
+  box-shadow: 0 1px 0 0 orange;
+}
+input:not([type]).validate + label,
+input[type="text"]:not(.browser-default).validate + label,
+input[type="password"]:not(.browser-default).validate + label,
+input[type="email"]:not(.browser-default).validate + label,
+input[type="url"]:not(.browser-default).validate + label,
+input[type="time"]:not(.browser-default).validate + label,
+input[type="date"]:not(.browser-default).validate + label,
+input[type="datetime"]:not(.browser-default).validate + label,
+input[type="datetime-local"]:not(.browser-default).validate + label,
+input[type="tel"]:not(.browser-default).validate + label,
+input[type="number"]:not(.browser-default).validate + label,
+input[type="search"]:not(.browser-default).validate + label,
+textarea.materialize-textarea.validate + label {
+  color: #000 !important;
+}
+.location {
+  color: orange;
+}
+.address-text {
+  font-size: 18px;
+}
+.copyright-sec {
+  background-color: var(--dark-color);
+  padding-top: 1rem;
+  padding-bottom: 0.1rem;
+}
+.offer-class {
+  font-size: 12px;
+  line-height: 1.2;
+  position: relative;
+  top: 35%;
+  font-weight: bold;
+}
+.btn-floating.btn-large {
+  width: 66px;
+  height: 66px;
+}
+a.btn-floating.black.text-white {
+  width: 100px;
+  border-radius: 0;
+  line-height: 1.4;
+  height: 100%;
+  color: gold;
+  padding: 14px;
+  position: relative;
+  right: 20px;
+}
+/* .tooltipped{
+  background-color: #000;
+  color: orange;
+} */
+nav .brand-logo{
+  left: 230px;
+}
+nav ul a:active
+{
+  color: orange;
+  font-size: 17px;
+}
+.navbar-fixed nav {
+  left: 0;
+}
+ul.right.hide-on-med-and-down {
+  position: relative;
+  right: 240px;
+}
+@media (max-width: 750px) {
+  h1 {
+    width: 100%;
+    padding: 30px 0;
+  }
+}
+@media (max-width: 600px) {
+  .line-row {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 80%;
+  }
+}

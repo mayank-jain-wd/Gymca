@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="./java.js"></script>
+</head>
+
+<body>
+  <!-- Navbar Section Starts -->
+  <div class="header-nav">
+    <section class="nav-bar">
+      <div class="container">
+        <div class="row">
+          <div class="navbar-fixed">
+            <nav>
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Gymca</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="#about-us" class="active">About Us</a></li>
+                  <li><a href="#classes">Classes</a></li>
+                  <li><a href="#schdedule-table">Schedules</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+        </nav>
+      </div>
+      
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#schdedule-table">Schedules</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>
+
+  <!-- Hero Section Starts -->
+  <div class="hero-sec parallax">
+    <div class="headr-sec">
+      <div class="container white-text center-align">
+        <div class="row">
+          <div class="hero-content">
+            <h4 class="hero-subhead">
+              new way to build a healthy lifestyle!
+            </h4>
+            <h1>UPGRADE YOUR BODY AT GYMSO FITNESS</h1>
+            <a class="waves-effect waves-light btn transparent cta-btn" class="cta-btn-text" onmouseover="display()" onmouseout="display1()" href="#contact">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- second section starts -->
+  <div class="second-sec " id="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 valign-wrapper">
+          <div class="left-sec white-text">
+            <h2>New to the gymso?</h2>
+            <h3>Your membership is up to 2 months FREE ($62.50 per month)</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil asperiores alias blanditiis.</p>
+          </div>
+        </div>
+        <div class="col s12 m2 line-row valign-wrapper"></div>
+        <div class="col s12 m4 valign-wrapper">
+          <div class="right-sec white-text">
+            <h2>Working hours</h2>
+            <h3>Monday - Saturday</h3>
+            <p>6:00 AM - 4:00 PM</p>
+            <a class="waves-effect waves-light btn-small orange white-text" class="cta-btn-text" onmouseover="display()" onmouseout="display1()">Get Started Today</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Third Section start -->
+  <div class="third-sec" id="classes">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <h2>Hello, we are Gymso</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quae repellendus, voluptatum aliquid,
+            ratione fugit maiores quod nisi sunt fuga et maxime eos beatae necessitatibus officia!</p>
+        </div>
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/team-image.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator">Mary Yan<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Mary Yan<i class="material-icons right">close</i></span>
+              <p><br>She is a Yoga Instructor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores odio, cumque
+                enim possimus explicabo deserunt illo et velit minus perspiciatis, vero fuga voluptatum at unde fugit veniam
+                beatae. Ad alias debitis nihil iusto voluptate?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./images/team-image01.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator">Jasmine Jick<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Jasmine Jick<i class="material-icons right">close</i></span>
+              <p><br>She is a Gym Instructor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores odio, cumque
+                enim possimus explicabo deserunt illo et velit minus perspiciatis, vero fuga voluptatum at unde fugit veniam
+                beatae. Ad alias debitis nihil iusto voluptate?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- GAllery section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align">
+            <h2>Some Sneak Peak</h2>
+            <div class="carousel carousel-slider">
+              <a class="carousel-item"><img src="./images/img-2.jpg" class="responsive-img"></a>
+              <a class="carousel-item"><img src="./images/img-3.jpg" class="responsive-img"></a>
+              <a class="carousel-item"><img src="./images/img-1.jpg" class="responsive-img"></a>
+              <a class="carousel-item"><img src="./images/img-4.jpg" class="responsive-img"></a>
+              <a class="carousel-item"><img src="./images/img-5.jpg" class="responsive-img"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fourth section -->
+    <section class="schedule section white-text center-align" id="schdedule-table">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h6>our weekly GYM schedules</h6>
+            <h2>Workout Timetable</h2>
+          </div>
+          <div class="schedule-table" id="schedule">
+            <table class="centered">
+              <tbody>
+                <tr>
+                  <td class="day-time">Fitness Class</td>
+                  <td class="monday ts-item show" data-tsmeta="monday">10:00AM - 11:30AM</td>
+                  <td class="tuesday ts-item" data-tsmeta="tuesday">2:00PM - 3:30PM</td>
+                  <td>William G. Stewart</td>
+                </tr>
+                <tr>
+                  <td class="day-time">Muscle Training</td>
+                  <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
+                  <td class="thursday friday ts-item" data-tsmeta="thursday">2:00PM - 3:30PM</td>
+                  <td>Paul D. Newman</td>
+                </tr>
+                <tr>
+                  <td class="day-time">Body Building</td>
+                  <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
+                  <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
+                  <td>Boyd C. Harris</td>
+                </tr>
+                <tr>
+                  <td class="day-time">Yoga Training Class</td>
+                  <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
+                  <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
+                  <td>Hector T. Daigle</td>
+                </tr>
+                <tr>
+                  <td class="day-time">Advanced Training</td>
+                  <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
+                  <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
+                  <td>Bret D. Bowers</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section -->
+    <div class="contact-sec" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h2>Get In Touch</h2>
+            <form>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email_name">Email <Address></Address></label>
+                </div>
+                <button class="btn waves-effect waves-light orange" type="submit" name="action">Submit
+                </button>
+              </div>
+          </div>
+          <div class="col s12 l6">
+            <h2>Where you can find us</h2>
+            <p class="address-text"><i class="material-icons location">location_on</i> 120-240 Rio de Janeiro - State of
+              Rio de Janeiro, Brazil</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58756.987128414774!2d-43.385296!3d-23.012325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdb695cd967b7%3A0x171cdd035a6a9d84!2sAv.%20L%C3%BAcio%20Costa%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%20Brazil!5e0!3m2!1sen!2sus!4v1623065819496!5m2!1sen!2sus"
+              width="100%" height="260" style="border:0; margin-top: 20px;" allowfullscreen="" loading="lazy"></iframe>
+
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="copyright-sec">
+    <div class="container">
+      <div class="row">
+        <p class="copyright-text white-text center-align">Copyright © 2021 Gymca Fitness Co.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large orange">
+      <!-- <i class="large material-icons">mode_edit</i> -->
+      <p class="offer-class text-white">Special Offer</p>
+    </a>
+    <ul>
+      <li><a class="btn-floating black text-white">Sign Up now & avail 20% discount</a></li>
+    </ul>
+
+    
+      <!-- <h4 class="offer-head">Congo!! You avail 20% discount</h4> -->
+    </div>
+  
+      
+  <script>
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true
+    });
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tap-target');
+    var instances = M.TapTarget.init(elems, options);
+  });
+
+  // const ab = document.getElementById("cta-btn-text");
+  const ab = document.getElementsByClassName("cta-btn-text")
+function display(){
+  ab[0].innerText = "Let's Go"
+}
+function display1(){
+  ab[0].innerText = "Get Started"
+}
+  </script>
+</body>
+
+</html>
